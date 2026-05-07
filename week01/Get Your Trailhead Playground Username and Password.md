@@ -15,7 +15,7 @@ Your Playground Has the Playground Starter App
 If your playground has the Playground Starter app, follow these steps to reset your password.
 
 Click the Get Your Login Credentials tab. Here you can see your Trailhead Playground username. 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 The Get Your Login Credentials page of the Trailhead Tips app, with the username called out
 
 Click Reset My Password. This sends an email to the address associated with your username.
@@ -31,14 +31,14 @@ Enter UsersCopy in Quick Find and select Users.
 Locate your name on the list of users. Check the box next to your name. Take note of the username. This is the username for your Trailhead Playground.
 Click Reset Password(s) and OK. This sends an email to the email address associated with your username. Be sure to check your spam folder if you don't see the email. 
 The list of users in Setup with the Reset Password(s) button called out.
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 Click the link in the email.
 Enter a new password, confirm it, and click Change Password.
 Now you have your username and password for your Trailhead playground. If you're planning on creating multiple Trailhead Playgrounds, use a password manager to store your credentials.
 
 Connect, Disconnect, or Rename a Trailhead Playground
 Once you’re a seasoned Trailhead user, you might have more than one Trailhead Playground. Say you’re completing a superbadge, for example, and you want to start clean in a new org. Or maybe you have an existing Developer Edition org that you want to connect to your Trailhead account. You can connect, disconnect, or rename your Trailhead Playgrounds to keep yourself organized.
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 The org management page, with the Rename, Disconnect, Connect Org, and Create Playground buttons called out
 
 From any hands-on challenge (such as the one in the last unit of this module) or project step, click the name of your playground and then click Manage Orgs. From here, click Rename (1) next to one of your Trailhead Playgrounds to rename it, or Disconnect (2) to disconnect it. To connect a Trailhead Playground or Developer Edition org, click Connect Org (3). To create a playground, click Create Playground (4).

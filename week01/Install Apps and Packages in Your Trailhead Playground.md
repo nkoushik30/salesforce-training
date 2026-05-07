@@ -34,13 +34,13 @@ Click the Install a Package tab.
 Paste the package ID into the field.
 Click Install.
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 The Install a Package tap in the Trailhead Tips app
 
 Select Install for Admins Only, then click Install.
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 The package installation screen, with Install for Admins Only selected and the Install button called out
 
 If you see a pop-up asking you to approve third-party access, select Yes, grant access to these third-party websites and click Continue.
@@ -80,7 +80,7 @@ Find the AppExchange listing you're looking for (the Dashboard Pal component fro
 Click Get It Now.
 From the Connected Salesforce Accounts dropdown, choose your Trailhead Playground username, then click Install in Production.
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 The Where do you want to install this package dialogue in AppExchange, with a Trailhead Playground selected and the Install in Production button called out.
 

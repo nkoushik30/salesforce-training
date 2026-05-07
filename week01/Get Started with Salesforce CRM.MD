@@ -25,7 +25,7 @@ In Salesforce, all of this information is stored securely in the cloud. Let's ta
 How Salesforce Organizes Your Data
 Salesforce organizes your data into objects and records. You can think of objects like a tab on a spreadsheet, and a record like a single row of data.Diagram with a spreadsheet and a Salesforce object. The spreadsheet tabs map to Salesforce objects and a row in the spreadsheet maps to a Salesforce record.
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 You can access objects from the navigation bar. Select any record to drill into a specific account, contact, opportunity, or any other record in Salesforce.
 
@@ -67,7 +67,7 @@ Salesforce CRM allows you to manage and access your data in sophisticated ways t
 
 Are you a visual learner? Take a look at how it fits together. And if you’d like to go deeper, be sure to check out the Data Modeling module here on Trailhead to learn more about how your data is organized.Data modeling
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 So that’s the basics of the standard object model, but that’s only the beginning, because Salesforce CRM is built on a platform. The term “platform” may initially seem intimidating. Try to think of it like this: a platform allows you to take everything that comes standard and customize it.
 
@@ -75,7 +75,7 @@ Here’s an example. Let’s say your sales managers want to request work from y
 
 Essentially, you’d make a form that the sales manager could fill out to request work, and each time a form is filled out, a record is created and stored in Salesforce. But instead of storing that record on a standard object, it’s stored on a custom object you’ve created, called “Projects.”Projects custom object
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 You don’t have to stop there. You can set up automatic email notifications every time a new request comes in, or create dashboards and reports to view all of your open requests. This is the power of Salesforce CRM and the platform.
 
