@@ -20,7 +20,7 @@ If you’d rather use an existing DE org, though, we understand. Just click the 
 
 Create Your First Trailhead Playground
 At the bottom of the page, find the hands-on challenge section and click the Create Playground button. After a brief setup process, your Trailhead Playground is ready to help you complete hands-on challenges.
-![alt text](images/image-1.png)
+![Salesforce Screenshot](../images/image-1.png)
 In every hands-on challenge and project step verification, you see the name of a hands-on org and a Launch button. Trailhead automatically chooses your most recently used org or, if you've tried the challenge before, the org you last used for that particular challenge. If you've never used a hands-on org before, Trailhead defaults to your most recently created playground. You can always select the org you want to work in by clicking the name of your org and choosing a different one from the list.
 
 A project step, where you click Launch to open your playground
@@ -32,7 +32,7 @@ If you're using Trailhead in a language other than English, make sure that your 
 The Create Playground modal
 
 Launch your Trailhead Playground from any hands-on challenge (such as the one in the last unit of this module) or project step by clicking Launch. Your playground opens in a new browser tab or window. 
-![alt text](images/image.png)
+![Salesforce Screenshot](../images/image.png)
 What If a Badge Asks Me to Create a Different Kind of Org?
 As you earn more badges, you might notice that some modules and projects use features that aren’t available in just any Trailhead Playground. In these modules, you have to sign up for a feature-specific trial DE org. If you’re working through the Fundraise with Nonprofit Success Pack trail to learn about the Salesforce Nonprofit Success Pack (NPSP), for example, you’ll need to sign for an NPSP trial org. If you want to learn how to create Configurable Bundles in Salesforce CPQ, you’ll need an org with Salesforce CPQ enabled.
 
