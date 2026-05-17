@@ -73,3 +73,6 @@ Record-triggered flow
 
 D
 Schedule-triggered flow
+
+
+![alt text](image-20.png)
