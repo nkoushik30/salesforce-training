@@ -1,0 +1,21 @@
+{
+  "required" : [ "activity_type" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "activity_type" : {
+      "title" : "Activity Type",
+      "description" : "The type of resort facility or activity the guest is asking about (e.g. spa, pool, restaurant, gym).",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "day_of_week" : {
+      "title" : "Day of Week",
+      "description" : "The day of the week the guest is asking about (e.g. Monday, Tuesday). If not specified, use today's day.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

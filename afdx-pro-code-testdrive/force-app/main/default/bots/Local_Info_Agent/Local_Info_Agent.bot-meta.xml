@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentDSLEnabled>true</agentDSLEnabled>
+    <agentType>EinsteinServiceAgent</agentType>
+    <botMlDomain>
+        <label>Local Info Agent</label>
+        <name>Local_Info_Agent</name>
+    </botMlDomain>
+    <botSource>None</botSource>
+    <botUser>afdx-agent@testdrive.org0fe8f4fa-7599-4e4c-b9b2-c19a3c60e6aa</botUser>
+    <description>A next-gen agent for Coral Cloud Resort that provides local weather updates, shares information about local events, and helps guests with resort facility hours.</description>
+    <label>Local Info Agent</label>
+    <logPrivateConversationData>false</logPrivateConversationData>
+    <richContentEnabled>true</richContentEnabled>
+    <sessionTimeout>0</sessionTimeout>
+    <type>ExternalCopilot</type>
+</Bot>

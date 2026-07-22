@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlannerBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A next-gen agent for Coral Cloud Resort that provides local weather updates, shares information about local events, and helps guests with resort facility hours.</description>
+    <localTopicLinks>
+        <genAiPluginName>agent_router_16jdL000003G8Xl</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>ambiguous_question_16jdL000003G8Xl</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>escalation_16jdL000003G8Xl</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>local_weather_16jdL000003G8Xl</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>off_topic_16jdL000003G8Xl</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>resort_hours_16jdL000003G8Xl</genAiPluginName>
+    </localTopicLinks>
+    <localTopics>
+        <fullName>ambiguous_question_16jdL000003G8Xl</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Redirect conversation to relevant subagents when user request is too ambiguous</description>
+        <developerName>ambiguous_question_16jdL000003G8Xl</developerName>
+        <genAiPluginInstructions>
+            <description>You are a helpful assistant for Coral Cloud Resort. You provide local weather updates, share information about local events, and help guests find resort facility hours.</description>
+            <developerName>instruction0_179dL000004ZeTK</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179dL000004ZeTK</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localDeveloperName>ambiguous_question</localDeveloperName>
+        <masterLabel>Ambiguous Question</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <localTopics>
+        <fullName>off_topic_16jdL000003G8Xl</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Redirect conversation to relevant subagents when user request goes off-topic</description>
+        <developerName>off_topic_16jdL000003G8Xl</developerName>
+        <genAiPluginInstructions>
+            <description>You are a helpful assistant for Coral Cloud Resort. You provide local weather updates, share information about local events, and help guests find resort facility hours.</description>
+            <developerName>instruction0_179dL000004ZeTJ</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179dL000004ZeTJ</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localDeveloperName>off_topic</localDeveloperName>
+        <masterLabel>Off Topic</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <localTopics>
+        <fullName>local_weather_16jdL000003G8Xl</fullName>
+        <canEscalate>false</canEscalate>
+        <description>This subagent addresses customer inquiries related to current and forecast weather conditions at Coral Cloud Resort, including temperature, chance of rain, and other weather details.</description>
+        <developerName>local_weather_16jdL000003G8Xl</developerName>
+        <genAiPluginInstructions>
+            <description>You are a helpful assistant for Coral Cloud Resort. You provide local weather updates, share information about local events, and help guests find resort facility hours.</description>
+            <developerName>instruction0_179dL000004ZeTM</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179dL000004ZeTM</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localActionLinks>
+            <functionName>check_weather_179dL000004ZeTM</functionName>
+        </localActionLinks>
+        <localActions>
+            <fullName>check_weather_179dL000004ZeTM</fullName>
+            <description>Fetch the weather forecast for Coral Cloud Resort.</description>
+            <developerName>check_weather_179dL000004ZeTM</developerName>
+            <invocationTarget>CheckWeather</invocationTarget>
+            <invocationTargetType>apex</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>check_weather</localDeveloperName>
+            <masterLabel>Check Weather</masterLabel>
+            <progressIndicatorMessage>Checking local weather...</progressIndicatorMessage>
+        </localActions>
+        <localDeveloperName>local_weather</localDeveloperName>
+        <masterLabel>Local Weather</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <localTopics>
+        <fullName>agent_router_16jdL000003G8Xl</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Welcome the user and determine the appropriate subagent based on user input</description>
+        <developerName>agent_router_16jdL000003G8Xl</developerName>
+        <genAiPluginInstructions>
+            <description>You are a helpful assistant for Coral Cloud Resort. You provide local weather updates, share information about local events, and help guests find resort facility hours.</description>
+            <developerName>instruction0_179dL000004ZeTL</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179dL000004ZeTL</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localDeveloperName>agent_router</localDeveloperName>
+        <masterLabel>Agent Router</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <localTopics>
+        <fullName>escalation_16jdL000003G8Xl</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Handles requests from users who want to transfer or escalate their conversation to a live human agent.</description>
+        <developerName>escalation_16jdL000003G8Xl</developerName>
+        <genAiPluginInstructions>
+            <description>You are a helpful assistant for Coral Cloud Resort. You provide local weather updates, share information about local events, and help guests find resort facility hours.</description>
+            <developerName>instruction0_179dL000004ZeTO</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179dL000004ZeTO</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localDeveloperName>escalation</localDeveloperName>
+        <masterLabel>Escalation</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <localTopics>
+        <fullName>resort_hours_16jdL000003G8Xl</fullName>
+        <canEscalate>false</canEscalate>
+        <description>This subagent helps guests find operating hours and reservation requirements for resort facilities at Coral Cloud Resort, including the spa, pool, restaurant, and fitness center.</description>
+        <developerName>resort_hours_16jdL000003G8Xl</developerName>
+        <genAiPluginInstructions>
+            <description>You are a helpful assistant for Coral Cloud Resort. You provide local weather updates, share information about local events, and help guests find resort facility hours.</description>
+            <developerName>instruction0_179dL000004ZeTN</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179dL000004ZeTN</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localActionLinks>
+            <functionName>get_resort_hours_179dL000004ZeTN</functionName>
+        </localActionLinks>
+        <localActions>
+            <fullName>get_resort_hours_179dL000004ZeTN</fullName>
+            <description>Look up operating hours and reservation requirements for a resort facility.</description>
+            <developerName>get_resort_hours_179dL000004ZeTN</developerName>
+            <invocationTarget>Get_Resort_Hours</invocationTarget>
+            <invocationTargetType>flow</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>get_resort_hours</localDeveloperName>
+            <masterLabel>Get Resort Hours</masterLabel>
+            <progressIndicatorMessage>Checking resort hours...</progressIndicatorMessage>
+        </localActions>
+        <localDeveloperName>resort_hours</localDeveloperName>
+        <masterLabel>Resort Hours</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <masterLabel>Local Info Agent</masterLabel>
+    <plannerType>Atlas__ConcurrentMultiAgentOrchestration</plannerType>
+</GenAiPlannerBundle>
