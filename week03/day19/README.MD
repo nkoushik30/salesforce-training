@@ -1,4 +1,3 @@
-
 # Final Project Phase 2
 
 ## Salesforce Summer Program – Day 19
@@ -6,6 +5,8 @@
 ## Project Overview
 
 ### Objective
+
+
 
 Day 19 focuses on refining and completing the enterprise Salesforce application by improving architecture, workflows, user experience, automation, reporting, scalability, and presentation readiness. The emphasis is on thinking like a Salesforce Solution Architect and preparing the project for demonstration.
 
