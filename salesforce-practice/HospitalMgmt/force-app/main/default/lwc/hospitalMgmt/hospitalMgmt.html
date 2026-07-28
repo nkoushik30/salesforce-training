@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Patient Records">
+        <template if:true={patients}>
+            <template for:each={patients} for:item="patient">
+                <div key={patient.Id} class="slds-p-around_medium slds-border_bottom">
+                    <p>
+                        <strong>{patient.Name}</strong>
+                    </p>
+                    <p>Email: {patient.Email__c}</p>    
+                    <p>Mobile: {patient.Mobile_Number__c}</p>
+                </div>
+            </template>
+        </template>
+        <template if:true={error}>
+            <div class="slds-p-around_medium slds-text-color_error">
+                {error}
+            </div>
+        </template>
+    </lightning-card>
+</template>
