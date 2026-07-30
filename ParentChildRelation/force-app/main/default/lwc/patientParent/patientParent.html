@@ -1,0 +1,20 @@
+<template>
+
+    <lightning-card title="Parent Component">
+
+        <lightning-input
+            label="Enter Patient Id"
+            value={recordId}
+            onchange={handleChange}>
+        </lightning-input>
+
+        <p>{message}</p>
+
+        <c-patient-child
+            record-id={recordId}
+            onnotify={handleNotify}>
+        </c-patient-child>
+
+    </lightning-card>
+
+</template>

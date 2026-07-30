@@ -1,0 +1,22 @@
+<template>
+
+    <lightning-card title="Child Component">
+
+        <template if:true={patient.data}>
+            <p>
+                Patient :
+                {patient.data.fields.Name.value}
+            </p>
+        </template>
+
+        <lightning-button
+
+            label="Notify Parent"
+
+            onclick={sendMessage}>
+
+        </lightning-button>
+
+    </lightning-card>
+
+</template>
