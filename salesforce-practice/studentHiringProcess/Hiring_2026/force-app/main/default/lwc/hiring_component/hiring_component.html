@@ -1,0 +1,41 @@
+<template>
+    <lightning-card title="Hiring-2026">
+        <div class="slds-p-around_medium">
+
+            <h1>Howdy {studentName}!</h1>
+
+            <!-- Student Name -->
+            <lightning-input label="Full Name" value={studentName} onchange={handleStudentNameChange}>
+            </lightning-input>
+
+            <!-- Student Email -->
+            <lightning-input label="Email" value={studentEmail} onchange={handleStudentEmailChange}>
+            </lightning-input>
+
+            <lightning-input label="Mobile Number" value={mobileNumber} onchange={handleMobileNumberChange}>
+            </lightning-input>
+
+            <lightning-input label="CGPA" value={CGPA} onchange={handleCGPAChange}>
+            </lightning-input>
+
+            <lightning-input label="College Name" value={collegeName} onchange={handleCollegeNameChange}>
+            </lightning-input>
+
+            <lightning-input label="Resume Link" value={resumeLink} onchange={handleResumeLinkChange}>
+            </lightning-input>
+
+            <!-- Button -->
+            <lightning-button label="Submit" variant="brand" onclick={handleSubmit}>
+            </lightning-button>
+
+            <!-- Conditional Rendering -->
+            <template if:true={showMessage}>
+                <strong>
+                    <p>Status : {status}</p>
+                    <p>Welcome to Salesforce Development Mr.{studentName}!</p>
+                </strong>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>
