@@ -9,6 +9,3 @@ export default class PlacementDetails extends LightningElement {
     totalselected = 28;
     totalNotSelected = this.totalApplied - this.totalselected;
 }
-
-
-
