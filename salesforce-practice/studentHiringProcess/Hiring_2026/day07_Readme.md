@@ -1,5 +1,4 @@
-
-# Sprint 7 – Bulk Processing and Bulk-Safe Apex Triggers
+# Bulk Processing and Bulk-Safe Apex Triggers
 
 ## Overview
 
