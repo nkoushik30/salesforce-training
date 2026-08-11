@@ -5,6 +5,18 @@
                 <strong>Role Name:</strong> {roleName}
             </p>
             <lightning-button label="Apply" variant="brand" onclick={handleApply}></lightning-button>
+            <lightning-button label="View Details" variant="brand" onclick={handleView}></lightning-button>
+
+            <template if:true={showMessage}>
+                <p><strong>Comapany Name : </strong>{companyName}</p>
+                <div class="slds-m-top_small">
+                    <strong>Company Description:</strong>
+
+                    <lightning-formatted-rich-text value={roleDescription}>
+                    </lightning-formatted-rich-text>
+                </div>
+            </template>
+
         </div>
     </lightning-card>
 </template>
